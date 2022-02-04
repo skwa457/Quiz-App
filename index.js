@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     //Current time + 5 minutes minus current time for a countdown timer
     var d = new Date(); 
-    d.setMinutes(d.getMinutes() + 1);
+    d.setMinutes(d.getMinutes() + 5);
   
     var countdown = setInterval(() => {
       var dateNow = new Date().getTime();
